@@ -1,6 +1,6 @@
 public class Road {
-    private String direction; // "NORTH", "SOUTH", "EAST", "WEST"
-    
+    private String direction;
+
     public Road(String direction) {
         this.direction = direction;
     }
