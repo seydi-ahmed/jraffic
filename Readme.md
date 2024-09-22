@@ -15,3 +15,11 @@ export JAVA_HOME=~/java/jdk-17.0.11
 export PATH=$JAVA_HOME/bin:$PATH
 ```
  - source ~/.bashrc
+
+## Compile:
+```
+javac --module-path /home/student/Downloads/javafx-sdk-17.0.12/lib --add-modules javafx.controls,javafx.fxml *.java
+```
+```
+java --module-path /home/student/Downloads/javafx-sdk-17.0.12/lib --add-modules javafx.controls,javafx.fxml Main
+```
